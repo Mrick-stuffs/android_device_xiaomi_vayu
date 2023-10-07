@@ -36,6 +36,10 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 30
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    remove
+
 # NFC
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
