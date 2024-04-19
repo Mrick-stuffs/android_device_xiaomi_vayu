@@ -40,3 +40,6 @@ WITH_GMS := true
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
+
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
